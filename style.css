@@ -1,0 +1,45 @@
+/* Background styles */
+body {
+    background: linear-gradient(to bottom right, #d9e4f0, #f2efff);
+  }
+  
+  .container {
+    background: rgb(104, 185, 217);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .list-group-item {
+    background-color: #f4f5f7;
+    margin-bottom: 10px;
+  }
+  
+  /* Color styles */
+  .btn-primary {
+    background-color: #4d6dff;
+    border-color: #4d6dff;
+  }
+  
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .btn-primary:not(:disabled):not(.disabled).active {
+    background-color: #3c54c2;
+    border-color: #3c54c2;
+  }
+  
+  .btn-danger {
+    background-color: #f44336;
+    border-color: #f44336;
+  }
+  
+  .btn-danger:hover,
+  .btn-danger:focus,
+  .btn-danger:not(:disabled):not(.disabled):active,
+  .btn-danger:not(:disabled):not(.disabled).active {
+    background-color: #e53935;
+    border-color: #e53935;
+  }
+  
