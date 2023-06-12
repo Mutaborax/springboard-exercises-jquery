@@ -2,23 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title><b> Movies App</b></title>
+    <title>Movies App</title>
     <link
       rel="stylesheet"
       href="https://unpkg.com/bootstrap/dist/css/bootstrap.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <style>
-      form {
-        margin-top: 20px;
-      }
-
-      .list-group-item {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-    </style>
   </head>
   <body>
     <div class="container">
@@ -54,12 +43,12 @@
     <script>
       $("form").on("submit", function (event) {
         event.preventDefault();
-        var title = $("#titleInput").val();
-        var rating = $("#ratingInput").val();
-        var listItem = $("<li>")
+        const title = $("#titleInput").val();
+        const rating = $("#ratingInput").val();
+        const listItem = $("<li>")
           .addClass("list-group-item")
           .text(title + " - " + rating);
-        var deleteButton = $("<button>")
+        const deleteButton = $("<button>")
           .addClass("btn btn-danger ml-3")
           .text("Remove");
         deleteButton.on("click", function () {
